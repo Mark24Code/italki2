@@ -1,0 +1,283 @@
+body{
+    text-align: center;
+    color:#fff;
+}
+a:hover{
+    text-decoration: none;
+}
+.btn-lg{
+    padding: 16px 30px !important;
+    font-size: 19px !important;
+    line-height: 1.3333333 !important;
+}
+.btn-primary{
+    font-size: 15px;
+    line-height: 19px;
+    padding: 9px 18px;
+    color: #fff;
+    border-color: #ff4338;
+    border-radius: 0px;
+    background: #ff4338;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+    margin-bottom:50px;
+}
+
+.btn-block{
+    width: 120px;
+    display: inline-block;
+    color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
+    border-radius: 0px;
+    margin: 0 20px 0 20px;
+}
+
+.btn-line{
+    color: #fff;
+    border:solid 1px #fff;
+    border-radius: 0px;
+}
+
+.section-title{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.section-subtitle{
+    font-size: 23px;
+}
+
+
+/*main page*/
+.header-section{
+    background: url(../img/homepage-hero2.jpg) no-repeat 40% 30%;
+    background-size: cover;
+    font-weight: bold;
+}
+.header-section .italki-navbar {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    background: rgb(255, 67, 56) none repeat scroll 0% 0%;
+    box-shadow: none;
+    border: medium none;
+}
+.header-section .logo-content .logo{
+    float: left;
+    display: block;
+    background: url(../img/landing-logo.svg) 20px 20px no-repeat;
+    width: 140px;
+    height: 65px;
+    background-position: center;
+}
+.header-section .login-content{
+    float: right;
+    line-height: 65px;
+    font-weight: bold;
+}
+.header-section .login-content .select-btn,
+.header-section .login-content .select-btn:hover,
+.header-section .login-content .select-btn:active{
+    color: white;
+    font-weight: bold;
+    background-color:#FF4338;
+    text-decoration: none;
+}
+
+.header-section .login-content .btn-login{
+    margin-top: 16px;
+    margin:0px 5px 0px 20px;
+}
+.header-section .intro-container .intro-content{
+    width: 560px;
+    padding: 30px 80px;
+    background: rgba(0,0,0,.7);
+    margin-top: 160px;
+    margin-bottom: 80px;
+    color: #fff;
+}
+
+.header-section .intro-content .intro-title{
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.header-section .intro-content .intro-subtitle{
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.header-section .vedio-content .vedio-logo{
+    font-size: 50px;
+}
+
+.header-section .vedio-content .vedio-text{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left:10px;
+
+}
+
+.join-community-section{
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.join-community-section .join-btn{
+    float: right;
+}
+
+.teacher-section .teacher-title{
+    padding: 50px 0 50px 0;
+    font-size: 50px;
+    font-weight:lighter;
+    color: #333;
+}
+.teacher-section .teacher-title span{
+    color: red;
+}
+.teacher-section .row-one{
+    position: relative;
+    min-height: 1px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.teacher-section .row-two{
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.teacher-section .row-one .avatar-content{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+}
+.teacher-section .row-two .avatar-content{
+    position: relative;
+    width: 22%;
+    height: 200px;
+    margin: 10px;
+}
+.teacher-section .avatar-content .info-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    width: 100%;
+}
+.teacher-section .info-content .lang-text{
+    font-size: 20px;
+}
+
+.teacher-section .find-lang-content{
+    background: #424242 !important;
+    font-size: 22px;
+    padding: 12px 0 12px 0;
+}
+
+.class-section{
+    background: #ff7b73;
+    margin-top: 70px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.class-section .class-icon-img{
+    width: 100%;
+}
+
+.market-section{
+    background: #424242;
+    padding: 0 0 70px;
+    padding-top: 70px;
+}
+.market-section .market-title-content{
+    margin-bottom:40px;
+    color: #fff;
+}
+
+.market-section .market-content .market-text{
+    color: #000;
+    background-color: #fff;
+    height: 210px;
+    padding: 30px;
+}
+.student-section{
+    color:#000;
+    background-color: #F1F1F1;
+    padding:70px 0;
+}
+.student-section .lessons-container,
+.student-section .community-container{
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom:30px;
+    padding-top: 70px;
+}
+
+.user-section{
+    padding: 0 0 70px;
+    background: url('../img/homepage-bottom.jpg');
+    background-size: cover;
+    padding: 200px 0;
+    margin-bottom: -30px;
+}
+.user-section .user-content{
+    width: 390px;
+    float: left;
+}
+
+.user-section .user-content .user-title{
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 40px;
+}
+.user-section .user-content .user-subtitle{
+    font-size:16px;
+    margin-bottom: 40px;
+}
+
+.footer-section{
+    background-color: #1B1B1B;
+    text-align: left;
+    padding-top: 40px;
+    color:#848484;
+}
+
+.footer-section .footer-title{
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-section ul{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.footer-section .connect-list li{
+    display:inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*main page end*/
+
+
+/*cover bootstrap start*/
+.btn-group.open .dropdown-toggle{
+    box-shadow: none;
+}
+/*cover bootstrap end */

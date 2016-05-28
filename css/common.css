@@ -1,0 +1,62 @@
+
+/*positon start*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+/*positon end*/
+
+/*font start*/
+.text-center{
+    text-align: center !important;
+}
+.text-bold{
+    font-weight: bold !important;
+}
+.text-red{
+    color: red !important;
+}
+.text-slim{
+    font-weight: lighter !important;
+}
+.text-lg{
+    font-size: 18px;
+}
+
+.text-slg {
+    font-size: 50px;
+}
+/*font end  */
+
+
+/*display start */
+.pt50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pt12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.mg30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.wt100p{
+    width: 100% !important;
+}
+/*display end */
+
+/*layout start*/
+/*layout end*/
+
