@@ -151,11 +151,12 @@ a:hover{
 }
 .teacher-section .row-one{
     position: relative;
-    min-height: 1px;
-    padding-left: 11px;
-    padding-right: 11px;
 }
 
+.teacher-section .row-one .avatar-content{
+    position: relative;
+    height: 200px;
+}
 .teacher-section .row-two{
     position: relative;
     min-height: 1px;
@@ -163,12 +164,6 @@ a:hover{
     padding-right: 8px;
 }
 
-.teacher-section .row-one .avatar-content{
-    position: relative;
-    width: 30%;
-    height: 200px;
-    margin: 10px;
-}
 .teacher-section .row-two .avatar-content{
     position: relative;
     width: 22%;
@@ -187,7 +182,7 @@ a:hover{
 }
 
 .teacher-section .find-lang-content{
-    background: #424242 !important;
+    background: #424242;
     font-size: 22px;
     padding: 12px 0 12px 0;
 }
