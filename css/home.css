@@ -113,12 +113,17 @@ a:hover{
 
 .header-section .vedio-content .vedio-logo{
     font-size: 50px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 .header-section .vedio-content .vedio-text{
     font-weight: bold;
     font-size: 20px;
     line-height: 50px;
+    height: 50px;
+    vertical-align: middle;
     margin-left:10px;
 
 }
