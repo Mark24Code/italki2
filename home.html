@@ -14,25 +14,40 @@
 <body>
     <header class="header-section">
         <nav class="navbar italki-navbar">
-            <div class="container">
-                <span class="logo-content">
-                    <a class="logo" href="#"></a>
-                </span>
-                <div class="login-content">
-                    <div class="btn-group">
-                        <a class="select-btn dropdown-toggle" data-toggle="dropdown">
-                            <span class="">Select Language :</span> English
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">English</a></li>
-                            <li><a href="#">Chinese</a></li>
-                            <li><a href="#">Japanese</a></li>
-                        </ul>
-                    </div>
-                    <a class="btn btn-login btn-line" type="button" href="#">SIGN IN</a>
-                    <a class="btn btn-login btn-line" type="button" href="#">SIGN UP</a>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-list" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <span class="navbar-brand logo-content">
+                        <a class="logo" href="#"></a>
+                    </span>
                 </div>
+                <div class="collapse navbar-collapse" id="nav-collapse-list">
+                    <ul class="nav navbar-nav navbar-right">
+                        <div class="login-content">
+                            <div class="btn-group">
+                                <a class="select-btn dropdown-toggle" data-toggle="dropdown">
+                                    <span class="">Select Language :</span> English
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Chinese</a></li>
+                                    <li><a href="#">Japanese</a></li>
+                                </ul>
+                            </div>
+                            <a class="btn btn-login btn-line" type="button" href="#">SIGN IN</a>
+                            <a class="btn btn-login btn-line" type="button" href="#">SIGN UP</a>
+                        </div>
+                    </ul>
+                </div>
+
+
             </div>
         </nav>
 
