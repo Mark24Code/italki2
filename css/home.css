@@ -1,3 +1,40 @@
+/*tools start*/
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+.visible-desktop{
+
+}
+@media ( max-width: 768px) {
+    .visible-desktop{
+        display: none;
+    }
+}
+
+
+
+.phone-fit{
+
+}
+
+@media (max-width: 970px) {
+    .phone-fit{
+        width: 100% !important;
+        float: left;
+    }
+}
+
+/*tools end */
+
 /*cover bootstrap start*/
 
 .col-xs-2dot5,
@@ -38,6 +75,7 @@
 
 /*cover bootstrap end */
 
+/* component start*/
 body {
     text-align: center;
     color: #fff;
@@ -48,9 +86,9 @@ a:hover {
 }
 
 .btn-lg {
-    padding: 16px 30px !important;
-    font-size: 19px !important;
-    line-height: 1.3333333 !important;
+    padding: 16px 30px;
+    font-size: 19px;
+    line-height: 1.3333333;
 }
 
 .btn-primary {
@@ -59,7 +97,7 @@ a:hover {
     padding: 9px 18px;
     color: #fff;
     border-color: #ff4338;
-    border-radius: 0px;
+    border-radius: 0;
     background: #ff4338;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
     margin-bottom: 50px;
@@ -70,14 +108,14 @@ a:hover {
     display: inline-block;
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
-    border-radius: 0px;
+    border-radius: 0;
     margin: 0 20px 0 20px;
 }
 
 .btn-line {
     color: #fff;
-    border: solid 1px #fff;
-    border-radius: 0px;
+    border: 1px solid #fff;
+    border-radius: 0;
 }
 
 .section-title {
@@ -90,6 +128,7 @@ a:hover {
 }
 
 
+/* component end*/
 
 /*main page*/
 
@@ -109,7 +148,7 @@ a:hover {
     z-index: 1;
     position: absolute;
     width: 100%;
-    background: rgb(255, 67, 56) none repeat scroll 0% 0%;
+    background: #FF4338;
     box-shadow: none;
     border: medium none;
 }
@@ -143,7 +182,7 @@ a:hover {
 
 .header-section .login-content .btn-login {
     margin-top: 16px;
-    margin: 0px 5px 0px 20px;
+    margin: 0 5px 0 20px;
 }
 
 .header-section .intro-container .intro-content {
@@ -174,7 +213,7 @@ a:hover {
     font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: 1px;
-    opacity: 0.9;
+    opacity: .9;
 }
 
 .header-section .vedio-content .vedio-logo {
@@ -198,7 +237,7 @@ a:hover {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0 20px 0;
 }
 
 .join-community-section .join-btn {
@@ -307,7 +346,7 @@ a:hover {
 .teacher-section .find-lang-content {
     background: #424242;
     font-size: 22px;
-    padding: 12px 0 12px 0;
+    padding: 12px 0 ;
     margin: 0 10px;
 }
 
@@ -387,7 +426,7 @@ a:hover {
 .footer-section {
     background-color: #1B1B1B;
     text-align: left;
-    padding: 40px 0px;
+    padding: 40px 0;
     color: #848484;
 }
 
@@ -421,7 +460,7 @@ a:hover {
 .footer-section .connect-container button.select-country-btn:active{
     display: inline;
     background:#6F7E82;
-    border-radius: 0px;
+    border-radius: 0;
     color:white !important;
 }
 
@@ -441,39 +480,4 @@ a:hover {
 /*main page end*/
 
 
-/*tools start*/
 
-.center{
-    text-align: center;
-}
-
-.left{
-    text-align: left;
-}
-.right{
-    text-align: right;
-}
-
-.visible-desktop{
-
-}
-@media ( max-width: 768px) {
-    .visible-desktop{
-        display: none;
-    }
-}
-
-
-
-.phone-fit{
-
-}
-
-@media (max-width: 970px) {
-    .phone-fit{
-        width: 100% !important;
-        float: left;
-    }
-}
-
-/*tools end */
