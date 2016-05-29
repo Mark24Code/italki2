@@ -1,0 +1,17 @@
+AAA-section
+    container(BS)
+        xxx-container
+            xxx-content
+                xxx-nav
+                xxx-title
+                xxx-subtitle
+                xxx-text
+                xxx-btn
+
+        YYY-container
+            YYY-content
+                YYY-nav
+                YYY-title
+                YYY-subtitle
+                YYY-text
+                YYY-btn
